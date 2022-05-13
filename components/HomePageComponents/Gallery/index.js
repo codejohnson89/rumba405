@@ -17,32 +17,32 @@ export default function Gallery () {
                 <div className={styles.gallery}>
                     <div className={styles.imageContainer}>
                         <figure>
-                            <Image src={one}></Image>
+                            <Image src={one} alt="Oklahoma city rumba 405 team"></Image>
                         </figure>
                     </div>
                     <div className={styles.imageContainer}>
                         <figure>
-                            <Image src={two}></Image>
+                            <Image src={two} alt="Oklahoma city rumba 405 team"></Image>
                         </figure>
                     </div>
                     <div className={styles.imageContainer}>
                         <figure>
-                            <Image src={three}></Image>
+                            <Image src={three} alt="Oklahoma city rumba 405 team"></Image>
                         </figure>
                     </div>
                     <div className={styles.imageContainer}>
                         <figure>
-                            <Image src={four}></Image>
+                            <Image src={four} alt="Oklahoma city rumba 405 team"></Image>
                         </figure>
                     </div>
                     <div className={styles.imageContainer}>
                         <figure>
-                            <Image src={five}></Image>
+                            <Image src={five} alt="Oklahoma city rumba 405 team"></Image>
                         </figure>
                     </div>
                     <div className={styles.imageContainer}>
                         <figure>
-                            <Image src={six}></Image>
+                            <Image src={six} alt="Oklahoma city rumba 405 team"></Image>
                         </figure>
                     </div>
                 </div>

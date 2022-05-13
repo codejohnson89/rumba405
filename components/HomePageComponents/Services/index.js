@@ -9,9 +9,9 @@ import image from '../../../public/images/okc-instructors-2.jpeg';
 export default function Services () {
     return (
         <>
-            <section class={styles.container}>
+            <section className={styles.container}>
             <div className={[styles.image, styles.content].join(' ')}>
-                    <figure class="wp-block-image size-large">
+                    <figure className="wp-block-image size-large">
                         <Image width="1024" height="923" src={image} alt="dallas new years eve salsa party" />
                     </figure>
                 </div>
