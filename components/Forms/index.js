@@ -38,11 +38,8 @@ export default function ContactForm () {
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control type="email" placeholder="Enter email" {...register('email')}/>
-                                <Form.Text className="text-muted">
-                                We'll never share your email with anyone else.
-                                </Form.Text>
                             </Form.Group>
-                            <Form.Group className='mb-3' controlId="formBasicTextarea">
+                            <Form.Group className="mb-3" controlId="formBasicTextarea">
                                 <Form.Label>Your Message</Form.Label>
                                 <Form.Control className={styles.message} type="textarea" placeholder="Your message" {...register('message')}/>
                             </Form.Group>
