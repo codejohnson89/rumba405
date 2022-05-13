@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #000;
+}
+
+.navlink a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #333;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.navContainer {
+    margin-right: 0 !important;
+}
+
+.nav {
+    color: #fff !important;
+}

@@ -1,0 +1,23 @@
+.footer {
+    background-color: #000;
+    padding-top: .5em;
+}
+
+.socialMediaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.bi {
+    color: red;
+    font-size: 48px;
+}
+
+.heading {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: .5em;
+    color: #fff;
+}

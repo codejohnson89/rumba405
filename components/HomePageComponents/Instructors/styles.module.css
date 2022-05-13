@@ -1,0 +1,30 @@
+.container {
+    min-width: 100%;
+    min-height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e9ec;
+    gap: 4em;
+}
+
+.content {
+    max-width: 35vw;
+
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.text  {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9em;
+    color: #444;
+    text-align: justify;
+}

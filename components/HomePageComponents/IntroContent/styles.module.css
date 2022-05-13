@@ -1,0 +1,11 @@
+.container {
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../public/images/rumba405team.jpeg');
+    background-size: cover;
+    background-position: 0 1rem;
+}
+

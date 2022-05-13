@@ -1,0 +1,31 @@
+.container {
+    background-color: #000;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: #fff;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.imageContainer {
+    max-width: 30vw;
+    max-height: 288px;
+    overflow: hidden;
+}
