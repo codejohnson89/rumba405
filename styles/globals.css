@@ -14,3 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.select-options-container {
+  margin-bottom: 1em;
+}
+
+
+.card {
+  min-height: 485px;
+}
+
+.card-text {
+  min-height: 80px;
+}

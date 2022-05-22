@@ -1,0 +1,32 @@
+.headerImage {
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: fixed;
+    min-height: 545px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 11.5em;
+    left: 2em;
+}
+
+.select {
+    margin-bottom: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.overlay {
+    height: 545px;
+    width: 100%;
+    background-color: rgba(0,0,0,.7);
+}

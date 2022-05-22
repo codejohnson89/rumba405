@@ -11,12 +11,12 @@ export default function Header () {
         <header>
             <Navbar className={styles.navbar} variant="dark" fixed='top'>
                 <Container>
-                    <Navbar.Brand href="#home"><Image src={headerrumbaLogo} width={75} height={75} alt="Rumba 405 logo"></Image></Navbar.Brand>
+                    <Navbar.Brand href="/"><Image src={headerrumbaLogo} width={75} height={75} alt="Rumba 405 logo"></Image></Navbar.Brand>
                     <Nav className={[styles.navContainer, 'me-auto'].join(' ')}>
-                        <Nav.Link className={styles.nav} href="#home">Home</Nav.Link>
-                        <Nav.Link className={styles.nav} href="#features">Classes</Nav.Link>
-                        <Nav.Link className={styles.nav} href="#pricing">Events</Nav.Link>
-                        <Nav.Link className={styles.nav} href="#pricing">Contact</Nav.Link>
+                        <Nav.Link className={styles.nav} href="/">Home</Nav.Link>
+                        <Nav.Link className={styles.nav} href="/classes">Classes</Nav.Link>
+                        <Nav.Link className={styles.nav} href="/events">Events</Nav.Link>
+                        <Nav.Link className={styles.nav} href="/contact">Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
