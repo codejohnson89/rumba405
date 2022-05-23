@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #000;
+    background-color: #000 !important;
 }
 
 .navlink a {
@@ -16,4 +16,8 @@
 
 .nav {
     color: #fff !important;
+}
+
+.toggle {
+    background-color: #ec2423;
 }

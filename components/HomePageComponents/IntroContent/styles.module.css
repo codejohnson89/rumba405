@@ -6,6 +6,12 @@
     align-items: center;
     background-image: url('../../../public/images/rumba405team.jpeg');
     background-size: cover;
-    background-position: 0 1rem;
+    background-position: 0 -1rem;
 }
 
+
+@media only screen and (max-width: 526px) {
+    .container {
+        background-position: center;
+    }
+}

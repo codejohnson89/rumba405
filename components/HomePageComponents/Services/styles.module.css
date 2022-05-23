@@ -50,3 +50,27 @@
     border-color: #000;
     color: #fff;
 }
+
+
+@media only screen and (max-width: 526px) {
+
+    .container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .content {
+        max-width: 100%;
+        order: 2;
+    }
+
+    .textContainer {
+        max-width: 100%;
+        padding: 1em;
+        order: 1;
+    }
+
+    .buttonContainer {
+        text-align: center;
+    }
+}

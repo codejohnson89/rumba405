@@ -27,3 +27,13 @@ a {
 .card-text {
   min-height: 80px;
 }
+
+figure {
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 526px) {
+  figure {
+    margin: 0 0 -1rem !important;
+  }
+}

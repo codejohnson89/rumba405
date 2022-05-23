@@ -11,11 +11,11 @@ export default function Services () {
         <>
             <section className={styles.container}>
             <div className={[styles.image, styles.content].join(' ')}>
-                    <figure className="wp-block-image size-large">
+                    <figure>
                         <Image width="1024" height="923" src={image} alt="dallas new years eve salsa party" />
                     </figure>
                 </div>
-                <div className={[styles.text, styles.content].join(' ')}>
+                <div className={[styles.textContainer, styles.content].join(' ')}>
                     <h3 className={styles.heading}>Our Services</h3>
                     <p className={styles.text}>We offer group and private lessons. We also provide an opportunity for students to learn and perform choreography taught by the instructors.</p>
                     <p className={styles.text}>We also host local events from social dance parties to latin dance workshops.</p>

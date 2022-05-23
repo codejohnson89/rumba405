@@ -29,3 +29,13 @@
     max-height: 288px;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 526px) {
+    .container {
+        padding-top: 3rem;
+    }
+
+    .imageContainer {
+        max-width: 100%;
+    }
+}

@@ -10,3 +10,10 @@
 .header {
     text-align: center;
 }
+
+@media only screen and (max-width: 526px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
+

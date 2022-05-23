@@ -1,5 +1,5 @@
 .customRow {
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -8,4 +8,12 @@
 
  .paypal-button-text {
     display: none !important;
+}
+
+@media only screen and (max-width: 526px) {
+    .customRow {
+        min-height: 0;
+        gap: 2em;
+        margin: 2em 0;
+    }
 }
