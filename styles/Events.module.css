@@ -1,0 +1,91 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+.content .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+}
+
+.content .text p {
+    text-align: justify;
+}
+
+.content .text a {
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #000;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.pastEvents figure {
+    max-width: 350px;
+}
+
+.weekly.events {
+    display: block;
+    width: 100%;
+}
+
+.weekly.events .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+
+.image img {
+    max-width: 250px !important;
+}
+
+.card {
+    width: 31.333%;
+    min-height: 250px;
+}
+
+.body {
+    padding: 0px;
+}
+
+.body p {
+    padding: 1em;
+}
+
+.title {
+    background-color: #000;
+    padding: 1em;
+    color: #fff;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 526px) {
+    .upcoming .content{
+        flex-direction: column-reverse;
+    }
+
+    .events h2 {
+        text-align: center;
+        margin: 2em 0;
+    }
+
+    .events .image img {
+        max-width: 100% !important;
+    }
+
+    .weekly .content {
+        flex-direction: column;
+    }
+
+    .weekly .content .card {
+        width: 100%;
+    }
+}
