@@ -42,7 +42,7 @@ export default function Events () {
                             </div>
                         </div>
                         <div className={[styles.weekly, styles.events].join(' ')}>
-                            <h2>Weekly Wvents</h2>
+                            <h2>Weekly Events</h2>
                             <div className={styles.content}>
                                 <div className={['card', styles.card].join(' ')} >
                                     <div className={['card-body', styles.body].join(' ')}>

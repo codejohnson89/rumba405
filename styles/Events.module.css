@@ -83,6 +83,7 @@
 
     .weekly .content {
         flex-direction: column;
+        gap: 1.5rem !important;
     }
 
     .weekly .content .card {
