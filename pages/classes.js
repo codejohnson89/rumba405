@@ -17,7 +17,6 @@ export default function Classes () {
             <Script
                 src="https://www.paypal.com/sdk/js?client-id=AYxI42bF7gwRGg3ctes8e3DwBrDAy4Df4SuVlQvSmQmpEqEw8vbou87BqMWCK0ix3T8e6Ee2Kmu_W8N5&enable-funding=venmo&currency=USD" 
                 id="loadPaypal"
-                strategy='beforeInteractive'
                 data-sdk-integration-source="button-factory"
             />
             <Script
