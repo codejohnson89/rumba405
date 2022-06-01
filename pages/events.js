@@ -1,4 +1,3 @@
-import { Main } from "next/document";
 import Image from "next/image";
 import { Container, Figure, Row } from "react-bootstrap";
 import HeaderImage from "../components/HeaderImages";
