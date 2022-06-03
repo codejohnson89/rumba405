@@ -19,7 +19,7 @@ export default function Events () {
     return (
         <>
             <main>
-                <HeaderImage heading='Events' image={events.src}/>
+                <HeaderImage specialName='events' heading='Events' image={events.src}/>
                 <Container>
                     <Row>
                         <div className={[styles.upcoming, styles.events].join(' ')}>

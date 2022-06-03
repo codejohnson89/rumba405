@@ -204,7 +204,7 @@ export default function Classes () {
                   initPayPalButtonTraining();`
                  }}
             />
-            <HeaderImage image={publicClass2.src} heading='Classes'/>
+            <HeaderImage specialName='classes' image={publicClass2.src} heading='Classes'/>
             <Container>
                 <Row className={styles.customRow}>
                     <Col sm={4}>

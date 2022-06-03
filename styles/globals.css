@@ -36,4 +36,20 @@ figure {
   figure {
     margin: 0 0 -1rem !important;
   }
+
+  .container {
+    margin-bottom: 2em;
+  }
+
+  .events {
+    background-position: -110em -107em;
+  }
+
+  .classes {
+    background-position: -124em -20em;
+  }
+
+  main {
+    margin-bottom: 2em;
+  }
 }

@@ -3,6 +3,7 @@
     background-position: 0 0;
     background-attachment: fixed;
     min-height: 545px;
+    background-repeat: no-repeat;
 }
 
 .heading {
@@ -40,5 +41,10 @@
 
     .heading {
         position: unset;
+    }
+
+
+    .headerImage {
+        background-position: -137em -108em;
     }
 }
