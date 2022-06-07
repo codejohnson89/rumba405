@@ -42,11 +42,11 @@ figure {
   }
 
   .events {
-    background-position: -110em -107em;
+    background-position: -110em -107em !important;
   }
 
   .classes {
-    background-position: -124em -20em;
+    background-position: -124em -20em !important;
   }
 
   main {
@@ -54,6 +54,6 @@ figure {
   }
 
   .select-options-container {
-    max-width: 320px;
+    max-width: 75%;
   }
 }
