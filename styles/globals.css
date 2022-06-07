@@ -52,4 +52,8 @@ figure {
   main {
     margin-bottom: 2em;
   }
+
+  .select-options-container {
+    max-width: 320px;
+  }
 }
