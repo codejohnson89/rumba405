@@ -20,7 +20,7 @@ export default function Services () {
                     <p className={styles.text}>We offer group and private lessons. We also provide an opportunity for students to learn and perform choreography taught by the instructors.</p>
                     <p className={styles.text}>We also host local events from social dance parties to latin dance workshops.</p>
                     <div className={styles.buttonContainer}>
-                        <Link href="#">
+                        <Link href="/classes">
                             <a className={styles.button}>View our classes</a>
                         </Link>
                     </div>
