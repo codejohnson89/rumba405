@@ -9,10 +9,10 @@ export default function HeaderImage (props) {
         <>
         {breakpoint ? 
             <section className={[props.specialName, styles.mobileBanner].join(' ')}>
+                <h1 className={styles.heading}>{props.heading}</h1>
                 <div className={styles.overlay}>
                     <figure className={styles.image}>
                         <Image src={props.image} width="425" height="300"/>
-                        <figcaption className={styles.mobileText}>{props.mobileText}</figcaption>
                     </figure>
                 </div>
             </section>
