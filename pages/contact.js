@@ -9,7 +9,7 @@ export default function Contact () {
 
     return (
         <>
-            <HeaderImage image={headingImage.src} heading='Contact'/>
+            {/* <HeaderImage image={headingImage.src} heading='Contact'/> */}
             <section className={styles.container}>
                 <div className={styles.content}>
                     <h2>Contact Us</h2>

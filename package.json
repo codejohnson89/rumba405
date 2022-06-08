@@ -14,9 +14,11 @@
     "bootstrap-icons": "^1.8.1",
     "lightgallery": "^2.4.0",
     "next": "12.1.6",
+    "next-transpile-modules": "^9.0.0",
     "react": "18.1.0",
     "react-bootstrap": "^2.3.1",
     "react-dom": "18.1.0",
+    "react-haiku": "^2.0.1",
     "react-hook-form": "^7.31.1",
     "react-youtube": "^9.0.1"
   },

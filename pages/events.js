@@ -19,7 +19,7 @@ export default function Events () {
     return (
         <>
             <main>
-                <HeaderImage specialName='events' heading='Events' image={events.src}/>
+                <HeaderImage specialName='events' heading='Events' image={events.src} mobileText="Events"/>
                 <Container>
                     <Row>
                         <div className={[styles.upcoming, styles.events].join(' ')}>
