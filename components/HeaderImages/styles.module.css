@@ -46,12 +46,16 @@
 
     .mobileText {
         position: absolute;
-        top: 50%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 2.5rem;
         font-weight: 700;
         color: #fff;
+    }
+
+    .mobileBanner {
+        overflow: hidden;
     }
 
     .image {

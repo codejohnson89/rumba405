@@ -8,7 +8,7 @@ export default function HeaderImage (props) {
     return (
         <>
         {breakpoint ? 
-            <section className={[props.specialName, 'mobileBanner'].join(' ')}>
+            <section className={[props.specialName, styles.mobileBanner].join(' ')}>
                 <div className={styles.overlay}>
                     <figure className={styles.image}>
                         <Image src={props.image} width="425" height="300"/>
